@@ -80,4 +80,4 @@ theme: pure
 deploy:
   type: git
   repo: https://github.com/GerryGe/gerryge.github.io.git
-  branch: published
+  branch: gh-pages
