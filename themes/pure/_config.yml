@@ -6,7 +6,7 @@ menu:
   Tags: tags  # 标签
   Repository: repository  # github repositories
   #Books: books  # 豆瓣书单
-  #Links: links  # 友链
+  Links: links  # 友链
   About: about  # 关于
 
 # Enable/Disable menu icons
@@ -58,14 +58,14 @@ sidebar: right
 widgets:
   - board  
   - category
-  - tag
+  #- tag
   - tagcloud
   - archive
   - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
-# - category
+ - category
 # - tagcloud
 # - archive  
 
@@ -156,7 +156,7 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: false  # 不蒜子统计
+    enable: true  # 不蒜子统计
   leancloud:
     enable: false  # leancloud统计
     app_id: # leancloud <AppID>
