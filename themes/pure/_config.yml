@@ -65,8 +65,8 @@ widgets:
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
- - category
-# - tagcloud
+  - category
+  - tagcloud 
 # - archive  
 
 # widget behavior
@@ -74,7 +74,7 @@ archive_type: 'monthly'
 show_count: true
 
 # Fancybox
-fancybox: true
+fancybox: false
 
 # Search
 search:
@@ -195,8 +195,8 @@ profile:
   social:
     links:
       github: https://github.com/gerryge
-      weibo: http://weibo.com/gerryge
-      #twitter: https://twitter.com/gerryge
+      # weibo: http://weibo.com/gerryge
+      # twitter: https://twitter.com/gerryge
       # facebook: /
       # dribbble: /
       #behance: https://www.behance.net/gerryge
